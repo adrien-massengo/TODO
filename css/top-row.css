@@ -1,0 +1,14 @@
+#top-row {
+    font-size: 3vmin;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+#title {
+    background-color: var(--dark-shade);
+    background-image: linear-gradient(45deg, rgba(133,123,131,1) 0%, rgba(121,112,112,0) 100%);    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
