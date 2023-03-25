@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- js by object-->
+    <script type="text/javascript" src="js/openSideBar.js"></script>
     <script type="text/javascript" src="js/fprint.js"></script>
     <!-- external js-->
     <script src="https://kit.fontawesome.com/39ce17f21a.js" crossorigin="anonymous"></script>
@@ -21,7 +22,10 @@
 <body class="body">
 <div class="container">
 <div id="top-row">
-    <span onclick="openSidebar()"><i id="menu-icon" class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i></span>
+    <span onclick="changeIcon()" id="menu-icon-container">
+        <i id="menu-icon-c" class="fa-solid fa-bars"></i>
+        <i id="menu-icon-o" class="fa-solid fa-xmark"></i>
+    </span>
     <span id="title">CreatR</span>
 </div>
 <div id="content-row">
